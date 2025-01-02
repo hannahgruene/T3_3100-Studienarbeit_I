@@ -6,4 +6,4 @@ Der finale Code für das Pflanzenbewässerungssystem, die zugehörige JSON-Datei
 
 Für die Messwertgrenzen sind die txt-Dateien, das Testprogramm und der python-Code im Ordner /Messprogramm_Sensorgrenzen abgelegt.
 
-Die Funktionstests für das Auslesen der SD-Karte, RTC und der Sensorwerte sind in der x Datei.
+Die Funktionstests für das Auslesen der SD-Karte, RTC und der Sensorwerte sind in der Schaltplan-Testprogramm.ino Datei.
