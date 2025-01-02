@@ -1,0 +1,81 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Beaucarnea",
+      "measurements": [
+        {
+          "timestamp": "2024-12-29T17:6:52Z",
+          "humidity": 33
+        },
+        {
+          "timestamp": "2024-12-29T17:26:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:27:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:28:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:29:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:30:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:31:7Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:41:13Z",
+          "humidity": 35
+        },
+        {
+          "timestamp": "2024-12-29T17:46:13Z",
+          "humidity": 36
+        },
+        {
+          "timestamp": "2024-12-29T17:51:13Z",
+          "humidity": 35
+        },
+        {
+          "timestamp": "2024-12-29T17:56:13Z",
+          "humidity": 33
+        },
+        {
+          "timestamp": "2024-12-29T18:1:13Z",
+          "humidity": 35
+        },
+        {
+          "timestamp": "2024-12-29T18:6:13Z",
+          "humidity": 35
+        }
+      ],
+      "watering": [
+        {
+          "entry": "2024-12-29T17:6:52Z"
+        },
+        {
+          "entry": "2024-12-29T17:26:7Z"
+        },
+        {
+          "entry": "2024-12-29T17:27:7Z"
+        }
+      ],
+      "icon": "beaucarnea"
+    }
+  ],
+  "notifications": [
+    {
+      "code": "soil_too_wet",
+      "status": false,
+      "error_message": "One of your plants is drowning :("
+    }
+  ]
+}

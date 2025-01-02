@@ -1,0 +1,115 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Alocasia",
+      "measurements": [
+        {
+          "timestamp": "2024-11-01T12:00:00Z",
+          "temperature": 22.5,
+          "humidity": 55.0
+        },
+        {
+          "timestamp": "2024-11-02T12:00:00Z",
+          "temperature": 20.5,
+          "humidity": 59.0
+        },
+        {
+          "timestamp": "2024-11-03T12:00:00Z",
+          "temperature": 20.5,
+          "humidity": 59.0
+        },
+        {
+          "timestamp": "2024-11-04T12:00:00Z",
+          "temperature": 20.5,
+          "humidity": 59.0
+        },
+        {
+          "timestamp": "2024-11-06T12:00:00Z",
+          "temperature": 20.5,
+          "humidity": 59.0
+        },
+        {
+          "timestamp": "2024-11-07T12:00:00Z",
+          "temperature": 20.5,
+          "humidity": 59.0
+        }
+      ],
+      "watering": [
+        {"entry": "2024-11-01T12:00:00Z"},
+        {"entry": "2024-11-02T12:00:00Z"},
+        {"entry": "2024-11-03T12:00:00Z"},
+        {"entry": "2024-11-07T12:00:00Z"}
+      ],
+      "icon": "alocasia"
+    },
+    {
+      "id": 2,
+      "name": "Monstera",
+      "measurements": [
+        {
+          "timestamp": "2024-10-02T12:00:00Z",
+          "temperature": 23.0,
+          "humidity": 60.0
+        }
+      ],
+      "watering": [
+        {"entry": "2024-11-02T12:00:00Z"},
+        {"entry": "2024-11-08T12:00:00Z"}
+      ],
+      "icon": "monstera"
+    },
+    {
+      "id": 3,
+      "name": "Ficus",
+      "measurements": [
+        {
+          "timestamp": "2024-10-01T12:00:00Z",
+          "temperature": 21.0,
+          "humidity": 50.0
+        },
+        {
+          "timestamp": "2024-10-05T12:00:00Z",
+          "temperature": 22.0,
+          "humidity": 52.0
+        }
+      ],
+      "watering": [
+        {"entry": "2024-10-05T12:00:00Z"},
+        {"entry": "2024-10-10T12:00:00Z"}
+      ],
+      "icon": "plant"
+    },
+    {
+      "id": 4,
+      "name": "Pothos",
+      "measurements": [],
+      "watering": [
+        {"entry": "2024-10-03T12:00:00Z"},
+        {"entry": "2024-10-10T12:00:00Z"}
+      ],
+      "icon": "plant"
+    },
+    {
+      "id": 5,
+      "name": "Philodendron",
+      "measurements": [
+        {
+          "timestamp": "2024-10-02T12:00:00Z",
+          "temperature": 23.0,
+          "humidity": 60.0
+        }
+      ],
+      "watering": [
+        {"entry": "2024-11-02T12:00:00Z"},
+        {"entry": "2024-11-08T12:00:00Z"}
+      ],
+      "icon": "philodendron"
+    }
+  ],
+  "waterLevel": 75,
+  "notifications": [
+    {"code": "water_level_too_low", "status": true, "error_message": "Please refill your water!"},
+    {"code": "soil_too_wet", "status": false, "error_message":  "One of your plants is drowning :("}
+  ]
+}
