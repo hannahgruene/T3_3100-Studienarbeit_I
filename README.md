@@ -4,4 +4,4 @@ Der finale Code für das Pflanzenbewässerungssystem ist unter x abgelegt. Die z
 
 Für die Messwertgrenzen sind die txt-Dateien, das Testprogramm und der python-Code im Ordner x abgelegt.
 
-Die Funktionstests für das Auslesen der SD-Karte und der Sensorverfügbarkeit sind in der x Datei.
+Die Funktionstests für das Auslesen der SD-Karte, RTC und der Sensorwerte sind in der x Datei.
